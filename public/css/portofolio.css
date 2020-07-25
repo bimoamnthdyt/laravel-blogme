@@ -1,0 +1,45 @@
+nav{
+    background: #0088b2;
+    margin-bottom: 8px;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+
+html{
+    position: relative;
+}
+
+body{
+    margin-bottom: 100px;
+}
+
+section{
+    min-height: 400px;
+}
+
+.contact{
+    min-height: 1000px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+    background-color: #333;
+    padding-top: 30px;
+}
+
+footer p{
+    color: #aaa;
+    font-size: 0,9em;
+}
